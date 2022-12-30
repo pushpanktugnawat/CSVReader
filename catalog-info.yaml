@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: csv-reader-service
+  description: This service useful to read CSV files
+  tags:
+    - java
+    - backend
+spec:
+  type: service
+  lifecycle: production
+  owner: pushpank-tugnawat
