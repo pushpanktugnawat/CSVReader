@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: csv-reader-service
   description: This service useful to read CSV files
+  annotations:
+    datadoghq.com/dashboard-url: https://p.datadoghq.eu/sb/bow2wjmfzr2exe01-4783209563235cb748e8eca895e1ede4
   tags:
     - java
     - backend
